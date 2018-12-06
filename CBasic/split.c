@@ -38,8 +38,6 @@ char *Stack_pop(Stack *stack) {
 
 char **split(char *str, char *regex) {
     Stack stack;
-    //char **words;// = (char **)malloc(sizeof(char *));
-    //*words = str;
     int i=0, check=0;
 
     initStack(&stack);
